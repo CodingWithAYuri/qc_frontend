@@ -1,0 +1,4 @@
+.disable-table-color {
+    --bs-table-color:var(--bs-table-color) initial !important;
+  }
+  
