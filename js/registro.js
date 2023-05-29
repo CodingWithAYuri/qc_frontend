@@ -17,7 +17,7 @@ $(document).ready(function () {
 
             // Fazer request para criar usuário
             $.ajax({
-                url: 'http://localhost:3000/register',
+                url: 'http://api.quackcontador.xyz:3000/register',
                 method: 'POST',
                 contentType: 'application/json',
                 data: JSON.stringify({ name, email, password }),

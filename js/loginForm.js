@@ -18,7 +18,7 @@ $(document).ready(function() {
 
     // Fazer request para autenticar usuário
     $.ajax({
-      url: 'http://localhost:3000/auth',
+      url: 'http://api.quackcontador.xyz:3000/auth',
       method: 'POST',
       contentType: 'application/json',
       data: JSON.stringify({ email, password }),
