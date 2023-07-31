@@ -32,7 +32,7 @@ body {
 
 body {
   display: -ms-flexbox;
-  display: flex;
+  
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   box-shadow: inset 1 1 5rem rgba(0, 0, 0, .5);
@@ -40,6 +40,22 @@ body {
 
 .cover-container {
   max-width: 42em;
+}
+
+.small-text-left {
+  text-align: left;
+}
+
+.text-large {
+  font-size: 18px; /* ajuste do tamanho da fonte da tag label*/
+}
+
+.login-text {
+  font-size: 12px;
+}
+
+.login-text-register {
+  font-size: 11px;
 }
 
 
@@ -76,13 +92,23 @@ body {
   border-bottom-color: #fff;
 }
 
+.dropdown-menu {
+  background-color: #333;
+}
+
+.header-title {
+  margin-left: 5px;
+  vertical-align: middle;
+
+}
+
 @media (min-width: 48em) {
   .masthead-brand {
     float: left;
   }
   .nav-masthead {
     float: right;
-  }
+  } 
 }
 
 
@@ -102,7 +128,7 @@ body {
  * Footer
  */
 .mastfoot {
-  color: rgba(255, 255, 255, .5);
+  color:#ffff;
 }
 
 .escondido {
